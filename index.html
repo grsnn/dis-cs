@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISEÑOS CS</title>
+    <link rel="shortcut icon" href="image/logo.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- seccion contacto -->
+    <div class="contact" id="contact">
+        <section class="contact__box">
+            <span class="icon--close" id="btnClose"><i class="fas fa-times"></i></span>
+            <h2 class="contact__box--title">¿ DUDAS O SUGERENCIAS ?</h2>
+            <p class="contact__box--subtitle">Elige calquiera de los siguientes medios</p>
+            <section class="content">
+                <a href="" class="content__link">
+                    <i class="fas fa-envelope-open-text content__link--icon"></i>
+                    <span class="content__link--name">GMAIL</span>
+                </a>
+                <a href="" class="content__link">
+                    <i class="fab fa-facebook-messenger content__link--icon"></i>
+                    <span class="content__link--name">FB MESSENGER</span>
+                </a>
+                <a href="" class="content__link">
+                    <i class="fab fa-whatsapp content__link--icon"></i>
+                    <span class="content__link--name">WHATSAPP</span>
+                </a>
+                <a href="" class="content__link">
+                    <i class="fab fa-telegram content__link--icon"></i>
+                    <span class="content__link--name">TELEGRAM</span>
+                </a>
+            </section>
+        </section>
+    </div>
+    <header class="header">
+        <section class="header__section">
+            <div class="icon__mobile" id="btnOpen">
+                <i class="fas fa-bars"></i>
+            </div>
+            <a href="" class="logo">
+                <img src="image/logo.png" class="logo__img" alt="Logo Diseños CS">
+                <h6 class="logo__name">Diseños CS</h6>
+            </a>
+            <nav class="nav" id="navMobile">
+                <ul class="nav__list" id="contentMobile">
+                    <li><a href="" class="nav__list__item active"><i class="fas fa-home"></i>Inicio</a></li>
+                    <li><a href="" class="nav__list__item" id="btnOpenC"><i class="fas fa-envelope"></i>Contacto</a></li>
+                    <li><a href="about.html" class="nav__list__item"><i class="fas fa-user"></i>Acerca de</a></li>
+                    <li><a href="sign_in.html" class="nav__list__item login"><i class="fas fa-sign-in-alt"></i>Ingresar</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="button">
+            <a href="sign_in.html" class="button__login"><i class="fas fa-sign-in-alt"></i> Ingresar</a>
+            <a href="sign_up.html" class="button__signup">REGISTRATE</a>
+        </section>
+    </header>
+    <main class="main">
+        <header class="main__info">
+            <h1 class="main__info__title">Encuentra las plantillas que necesitas</h1>
+            <h6 class="main__info__subtitle">Puedes integrarlas a tus proyectos web</h6>
+        </header>
+        <nav class="main__nav" id="category">
+            <ul class="main__nav__list">
+                <li><a href="" class="main__nav__list__item active">Todos</a></li>
+                <li><a href="" class="main__nav__list__item">Formularios</a></li>
+                <li><a href="" class="main__nav__list__item">Plantillas</a></li>
+                <li><a href="" class="main__nav__list__item">Varios</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <form class="search__form" id="formSearch">
+                <span class="search__form__icon" id="iconSearch"><i class="fas fa-search"></i></span>
+                <input type="text" class="search__form__input" placeholder="Buscar..." id="inputSearch">
+            </form>
+        </div>
+        <div class="content__cards">
+            <div class="main__section" id="mainSection">
+                <article class="card" data-category="formularios">
+                    <section class="card__body">
+                        <header class="card__header">
+                            <img class="card__header__image" src="image/demo-1.jpg" alt="">
+                            <a href="post.html" class="card__header__text">
+                                <h4 class="text">¡ VAMONOS !</h4>
+                            </a>
+                        </header>
+                        <div class="card__info">
+                            <h2 class="card__info__title">
+                                <a href="post.html" class="card__info__title__link">Card</a>
+                            </h2>
+                            <p class="card__info__summary">Card para integrarlo a tu tienda...</p>
+                        </div>
+                        <div class="card__more">
+                            <div class="card__datas--box">
+                                <i class="fas fa-heart"></i>
+                                <span class="box--text">255</span>
+                            </div>
+                            <div class="card__datas--box">
+                                <i class="far fa-calendar-alt"></i>
+                                <span class="box--text">07.11.2020</span>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copy">&copy; 2021 Todos los derechos reservados <br>Diseñado por <a href="" class="footer__copy__item">Gerson CS</a></p>
+        <div class="footer__social">
+            <a href="" class="footer__social__item facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="footer__social__item twitter"><i class="fab fa-twitter"></i></a>
+            <a href="" class="footer__social__item instagram"><i class="fab fa-instagram"></i></a>
+            <a href="" class="footer__social__item github"><i class="fab fa-github"></i></a>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+.discs {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+    color: rgba(0, 0, 0, .87);
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.discs__logo {
+    width: 30px;
+    margin-right: 3px;
+}
+
+.descriptions {
+    margin: 30px auto;
+    color: rgba(0, 0, 0, .77);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.help {
+    font-weight: 500;
+    color: #1b2740;
+}
+
+.help__item {
+    text-decoration: none;
+    color: #fe696a;
+    font-weight: 600;
+    border: dashed 1px #fe696a;
+    padding: 3px 7px;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: var(--transition);
+}
+
+.help__item:hover {
+    opacity: 0.8;
+    transition: var(--transition);
+}
+
+.city {
+    margin-top: 30px;
+    color: #616161;
+    font-size: 14px;
+}
+
+.city__item {
+    color: #fe696a;
+    text-decoration: none;
+    border-bottom: dashed 1px #fe696a;
+    font-weight: 600;
+}
